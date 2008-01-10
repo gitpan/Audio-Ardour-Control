@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Audio-Ardour-Control
-version:             0.10
+version:             0.20
 abstract:            Automate the Ardour DAW software.
 license:             ~
 author:              
@@ -8,6 +8,7 @@ author:
 generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
+    File::HomeDir:                 0.67
     Net::LibLO:                    0.06
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
